@@ -1,7 +1,7 @@
-Rundeck Puppet module
-==================
+Puppet Rundeck module
+=====================
 
-[![Build Status](https://secure.travis-ci.org/smarchive/puppet-rundeck.png)](http://travis-ci.org/smarchive/puppet-rundeck)
+[![Build Status](https://secure.travis-ci.org/gini/puppet-rundeck.png)](http://travis-ci.org/gini/puppet-rundeck)
 
 Overview
 --------
@@ -18,8 +18,7 @@ Usage
 
 Example:
 
-    class { 'rundeck':
-    }
+    class { 'rundeck': }
 
 
 Supported Platforms
@@ -27,20 +26,24 @@ Supported Platforms
 
 The module has been tested on the following operating systems. Testing and patches for other platforms are welcome.
 
-* Debian Linux 6.0 (Squeeze)
-
-
-License
--------
-
-Copyright (c) 2013 smarchive GmbH
-
-This script is licensed under the Apache License, Version 2.0.
-
-See http://www.apache.org/licenses/LICENSE-2.0.html for the full license text.
+* Debian Linux 7.0 (Wheezy)
 
 
 Support
 -------
 
-Please log tickets and issues at our [project site](https://github.com/smarchive/puppet-rundeck/issues).
+Please create bug reports and feature requests in [GitHub issues](https://github.com/gini/puppet-rundeck/issues).
+
+
+Contributors
+------------
+
+* roidelapluie
+
+
+License
+-------
+
+Copyright (c) 2013 smarchive GmbH, 2013 Gini GmbH
+
+This script is licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
